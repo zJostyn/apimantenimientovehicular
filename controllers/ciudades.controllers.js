@@ -2,11 +2,7 @@ const { Pool } = require("pg");
 
 //cadena de conexion
 const pool = new Pool({
-    user: "postgres",
-    host: "localhost",
-    database: "MV",
-    password: "jostyn001",
-    port: 5432,
+    connectionString: 'postgres://mantenimientovehicular_user:KMIHVUcUDmbWYTYy7oscft8oUb5snrTX@dpg-cmotqm6ct0pc73euesvg-a/mantenimientovehicular'
 });
 
 //funcion para devolver todas las ciudades
